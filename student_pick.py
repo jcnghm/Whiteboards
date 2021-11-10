@@ -5,7 +5,6 @@
 # William B
 # Asher B
 # John B
-# Brandon W
 # Quamel B
 # Alex E
 # Allan E
@@ -16,6 +15,6 @@
 # Christopher S
 
 import random
-students = ["William", "Asher", "John", "Brandon", "Quamel", "Alex", "Allan", "Shouwang", "Samantha", "Iwona", "Matias", "Christopher"]
+students = ["William", "Asher", "John", "Quamel", "Alex", "Allan", "Shouwang", "Samantha", "Iwona", "Matias", "Christopher"]
 
 print(random.choice(students))

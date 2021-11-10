@@ -1,5 +1,5 @@
 # Fizz Buzz #2
-# Write a function to print all numbers 1 to n, but there are some constraints
+# Write a function to print all numbers 1 to 20, but there are some constraints
 # If the number is divisible by 3, print ‘Fizz’ instead of the number
 # If the number is divisible 5, print ‘Buzz’ instead of the number
 # If the number is divisible by both 3 and 5, print ‘FizzBuzz’ instead of the number
@@ -17,3 +17,5 @@ def fizzBuzz(x):
            print("Buzz")
        else:
            print(i)
+
+fizzBuzz(20)

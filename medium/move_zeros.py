@@ -16,3 +16,5 @@ def moveZeros(array):
        array.append(0)
       
    return(array)
+
+print(moveZeros([0,1,0,3,12]))

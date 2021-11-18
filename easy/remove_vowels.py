@@ -1,6 +1,7 @@
 # Remove vowels
 
-# Write a function that will remove all vowels from a given string. The function should return a string.
+# Write a function that will remove all vowels from a given string. 
+# The function should return a string.
 # Example:
 # Input: ‘Hello World’
 # Output: ‘Hll wrld’

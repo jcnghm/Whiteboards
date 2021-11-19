@@ -16,6 +16,16 @@ def moveZeros(array):
     for i in range(counter):
        array.append(0)
       
-    return(array)
+    return array
 
 print(moveZeros([0,1,0,3,12,0,44,2,77,0,43,13]))
+
+
+def move_zeros(array):
+    for i in array:
+        if i == 0:
+            array.remove(i)
+            array.append(i)
+    return array
+
+print(move_zeros([0,1,0,3,12,0,44,2,77,0,43,13]))

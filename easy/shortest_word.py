@@ -9,10 +9,9 @@
 def shortest_word(words):
     words = words.split()
     items = [len(item) for item in words]
-    minimum = min(items)
-    print(minimum)
+    return min(items)
 
-shortest_word("Brady wins again")
+print(shortest_word("Brady wins again"))
 
 # # OR One Liner with list comprehension
 

@@ -6,7 +6,7 @@
 
 
 def lastLen(str):
-   lst = str.split(' ')
+   lst = str.split()
    return len(lst[-1])
 
 string = "Hello World from Josh"

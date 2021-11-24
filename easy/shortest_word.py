@@ -1,9 +1,9 @@
 # Shortest Word
-# Given a string of words, return the length of the shortest word(s).
+# Given a string of words, return the length of the shortest word.
 # String will never be empty and you do not need to account for different data types.
-# Example Input: words = ["will bitcoin take over the world maybe who knows perhaps"]
+# Example Input: words = "will bitcoin take over the world maybe who knows perhaps"
 # Example Output: 3
-# Example Input: words = ["Brady wins again"]
+# Example Input: words = "Brady wins again"
 # Example Output: 4
 
 def shortest_word(words):

@@ -22,12 +22,9 @@ def findDouble(lst):
   return False
 
 
-  #Another solution
 def double(array):
-   seen = set()
-   for i in array:
-       if i * 2 in seen or (i / 2 in seen):
+   seen = set(array)
+   for num in array:
+       if num * 2 in seen or (num / 2 in seen):
            return True
-       else:
-           seen.add(i)
    return False

@@ -7,13 +7,13 @@
 # solution('abc') # should return ['ab', 'c_']
 # solution('abcdef') # should return ['ab', 'cd', 'ef']
 
-def solution(s):
-    if len(s) == 0:
+def solution(str):
+    if len(str) == 0:
         return []
-    elif len(s) == 1:
-        return [s + "_"]
+    elif len(str) == 1:
+        return [str + "_"]
     else:
-        return [s[:2]] + solution(s[2:])
+        return [str[:2]] + solution(str[2:])
 
 print(solution('abcdef'))
 print(solution('abc'))

@@ -6,8 +6,8 @@
 
 
 def lastLen(str):
-   lst = str.split()
-   return len(lst[-1])
+   list = str.split()
+   return len(list[-1])
 
 string = "Hello World from Josh"
 print(lastLen(string))

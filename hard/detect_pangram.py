@@ -8,20 +8,29 @@
 
 
 def is_pangram(s):
-    alph = 'abcdefghijklmnopqrstuvwxyz'
-    list = []
+    alph = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
+    for i in set(s):
+        if i in alph:
+            alph.remove(i)
+    if len(alph) == 0:
+        return True
+    return False
 
-    for i in alph:
-        list.append(i)
+    # alph = 'abcdefghijklmnopqrstuvwxyz'
+    # list = []
+    
+    # for i in alph:
+    #     list.append(i)
 
-    for i in s.lower():
-        if i in list:
-            list.remove(i)
+    # for i in s.lower():
+    #     if i in list:
+    #         list.remove(i)
 
-    length = len(list)
+    # list = set(list)
+    # length = len(list)
 
-    if length > 0:
-        return False
-    return True
+    # if length > 0:
+    #     return False
+    # return True
 
-print(is_pangram('abcdefghijklmopqrstuvwxyz'))
+print(is_pangram('abcdefghijklmnopqrstuvwxyz'))

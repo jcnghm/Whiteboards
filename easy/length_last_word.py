@@ -4,9 +4,8 @@
 # Example Input: "Hello world how are you today"
 # Example Output: 5
 
-
-def lastLen(str):
+def lenLast(str):
    list = str.split()
    return len(list[-1])
 
-print(lastLen("Hello world how are you today"))
+print(lenLast("Hello world how are you today"))

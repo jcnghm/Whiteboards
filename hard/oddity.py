@@ -13,14 +13,14 @@ import math
 def oddity(n):
     count = 0  
     for num in range(1, int((math.sqrt(n)) + 2)):
-        if (n % num == 0) :
-            if( n // num == num) :
+        if n % num == 0 :
+            if n // num == num :
                 count = count + 1
             else :
                 count = count + 2
-    if (count % 2 == 0) :
+    if count % 2 == 0 :
         return 'even'
     else :
         return 'odd'
 
-print(oddity(20))
+print(oddity(23))

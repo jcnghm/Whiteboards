@@ -14,3 +14,5 @@ def num(array,n):
        return True
    else:
        return False
+
+print(num([10,30,44,22,100], 105))

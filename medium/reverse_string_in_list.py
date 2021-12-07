@@ -16,5 +16,9 @@ def reversedList(lst):
        lst[x], lst[len(lst)-x-1] = lst[len(lst)-x-1], lst[x]
    return lst
 
+def revlist(lst):
+    return lst[::-1]
+
 
 print(reversedList(["h","e","l","l","o"]))
+print(revlist(["h","e","l","l","o"]))

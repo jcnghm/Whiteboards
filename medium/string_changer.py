@@ -1,6 +1,6 @@
 #Given a string after every y add an ! and after every s add a peroid and make every w and g capital
 #Make a Function that takes a string as input and returns the adjusted string.
-s="Hey welcome to doing whiteboard problems get prepared to figure our a problem on the fly"
+s="Hey welcome to doing whiteboard problems get prepared to figure out a problem on the fly"
 #output= Hey! Welcome to doinG Whiteboard problems. Get prepared to fiGure our a problem on the fly!
 
 

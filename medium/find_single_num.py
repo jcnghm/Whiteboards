@@ -15,3 +15,5 @@ def non_empty(arr):
    for x in arr_s:
        if arr.count(x) == 1:
            return x
+
+print(non_empty([4,1,2,1,2]))

@@ -17,7 +17,7 @@ def max_letters(sentence):
 print(max_letters(s))
 
     
-def max_letter(sentence):
-    from collections import Counter
-    return max(Counter(sentence.lower().replace(" ","")),key=Counter(sentence.lower().replace(" ","")).get)
-print(max_letter(s))
+# def max_letter(sentence):
+#     from collections import Counter
+#     return max(Counter(sentence.lower().replace(" ","")),key=Counter(sentence.lower().replace(" ","")).get)
+# print(max_letter(s))

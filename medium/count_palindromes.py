@@ -14,3 +14,13 @@ def palCount(n):
 
 
 print(palCount(['dog', 'racecar', 'wildebeast']))
+
+
+def palCount1(n):
+   sorted_n = n.sort(key = len, reverse = True)
+   for i in range(len(n)):
+       if n[i] == n[i][::-1]:
+           return len(n[i])
+   return 0
+
+print(palCount1(['dog', 'racecar', 'wildebeast']))

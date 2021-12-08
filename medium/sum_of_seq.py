@@ -15,6 +15,7 @@
 # 1,5,1 --> 15 (1 + 2 + 3 + 4 + 5)
 # 1,5,3  --> 5 (1 + 4)
 
+# Recursion
 
 def sequence_sum(begin_number, end_number, step):
 
@@ -28,6 +29,8 @@ def sequence_sum(begin_number, end_number, step):
         return begin_number + sequence_sum(begin_number + step, end_number, step)
 
 print(sequence_sum(1,9,1))
+
+# Incorrect way
 
 def seq_sum(begin_number, end_number, step):
     return sum(range(begin_number, end_number+1, step))

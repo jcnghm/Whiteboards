@@ -4,7 +4,9 @@
 
 # The sequence is defined by 3 non-negative values: begin, end, step (inclusive).
 
-# If begin value is greater than the end, function should returns 0
+# If begin value is greater than the end, function should returns 0 and if the begin number
+
+# equals the end number return the end number
 
 # Examples
 
@@ -15,7 +17,7 @@
 
 
 def sequence_sum(begin_number, end_number, step):
-    
+
     if begin_number > end_number:
         return 0
     
@@ -23,7 +25,7 @@ def sequence_sum(begin_number, end_number, step):
         return end_number
 
     else:
-        return begin_number + sequence_sum(begin_number+step,end_number,step)
+        return begin_number + sequence_sum(begin_number + step, end_number, step)
 
 print(sequence_sum(1,9,1))
 

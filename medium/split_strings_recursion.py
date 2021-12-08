@@ -18,6 +18,7 @@ def solution(str):
     else:
         return [str[:2]] + solution(str[2:])
 
-print(solution('abcdef'))
+print(solution('abcdefgh'))
 print(solution('abc'))
+print(solution('ab'))
 print(solution('a'))

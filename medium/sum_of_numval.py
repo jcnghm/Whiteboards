@@ -10,7 +10,7 @@
 def sum_nested(lst):
     cur_sum = 0
     for elem in lst:
-        if type(elem)==type(1):
+        if type(elem) == type(1):
             cur_sum+=elem
         else:
             cur_sum+=sum_nested(elem)
